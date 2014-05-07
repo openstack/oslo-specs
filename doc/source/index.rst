@@ -22,7 +22,7 @@ oslo-specs Repository Information
 
    README <readme>
    contributing
-   Sample Template <template>
+   Sample Template <specs/template>
 
 
 Indices and tables
