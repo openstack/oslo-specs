@@ -3,18 +3,19 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-oslo-specs Design Specifications
-==================================================
+============================
+ Oslo Design Specifications
+============================
 
 .. toctree::
    :glob:
    :maxdepth: 2
 
-   ../../specs/*
+   specs/*
 
 
 oslo-specs Repository Information
-===================================================
+=================================
 
 .. toctree::
    :maxdepth: 2
