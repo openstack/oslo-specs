@@ -10,10 +10,10 @@
   https://blueprints.launchpad.net/oslo/+spec/awesome-thing should be
   named awesome-thing.rst.
 
-  Please wrap text at 79 columns.
+  Wrap text at 79 columns.
 
-  Please do not delete any of the sections in this
-  template.  If you have nothing to say for a whole section, just write: None
+  Do not delete any of the sections in this template.  If you have
+  nothing to say for a whole section, just write: None
 
   If you would like to provide a diagram with your spec, ascii diagrams are
   required.  http://asciiflow.com/ is a very nice tool to assist with making
@@ -188,7 +188,6 @@ Milestones
 ----------
 
 Target Milestone for completion:
-  Juno-1
 
 Work Items
 ----------

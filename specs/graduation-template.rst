@@ -10,10 +10,10 @@
   https://blueprints.launchpad.net/oslo/+spec/awesome-thing should be
   named awesome-thing.rst.
 
-  Please wrap text at 79 columns.
+  Wrap text at 79 columns.
 
-  Please do not delete any of the sections in this
-  template.  If you have nothing to say for a whole section, just write: None
+  Do not delete any of the sections in this template.  If you have
+  nothing to say for a whole section, just write: None
 
   If you would like to provide a diagram with your spec, ascii diagrams are
   required.  http://asciiflow.com/ is a very nice tool to assist with making
@@ -35,11 +35,11 @@ Provide a brief description of the focus of the new library.
 Library Name
 ============
 
-What is the name of the new library?
+What is the name of the new library?: 
 
-* Libraries that are only used by OpenStack projects can be ``oslo.*``.
-* Libraries that may be (or are) used by other projects should
-  consider adopting a more generic name.
+Refer to
+https://wiki.openstack.org/wiki/Oslo/CreatingANewLibrary#Choosing_a_Name
+for the policies related to Oslo library names.
 
 Contents
 ========
@@ -106,7 +106,6 @@ Milestones
 ----------
 
 Target Milestone for completion:
-  Juno-1
 
 Work Items
 ----------
