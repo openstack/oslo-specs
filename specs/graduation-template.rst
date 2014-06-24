@@ -53,6 +53,14 @@ Early Adopters
 List the projects that have agreed to participate as early adopters of
 the new library.
 
+Public API
+==========
+
+Describe the public API of the new library (modules and
+functions). Include details about any functions in the modules now
+that will be considered private, and that may need to move into a
+private module to stay hidden.
+
 Implementation
 ==============
 
