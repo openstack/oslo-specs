@@ -15,8 +15,12 @@ oslo.log
 Contents
 ========
 
+* openstack/common/context.py
+* openstack/common/local.py
 * openstack/common/log.py
 * openstack/common/fixture/logging.py
+* tests/unit/test_context.py
+* tests/unit/test_local.py
 * tests/unit/test_log.py
 * tests/unit/fixture/test_logging.py
 
@@ -37,6 +41,7 @@ Primary assignee:
 
 Other contributors:
   Chuck Short (zulcss)
+  dims
 
 Primary Maintainer
 ------------------
@@ -82,6 +87,9 @@ Work Items
     implementation to a private module to hide the global variables it
     uses.
   * Move :class:`WritableLogger` to a separate public module.
+  * Make the :mod:`local` module private (:mod:`_local`). We may move
+    the module to another library in the future, but for now only the
+    context and logging code uses it.
 
 Adoption Notes
 ==============
@@ -105,6 +113,7 @@ Prerequisites:
 Related blueprints:
 
 * https://blueprints.launchpad.net/oslo/+spec/fix-import-cycle-log-and-versionutils
+* https://blueprints.launchpad.net/oslo/+spec/app-agnostic-logging-parameters
 
 References
 ==========
