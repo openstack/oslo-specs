@@ -2,8 +2,6 @@
  Graduating oslo.i18n
 ======================
 
-Include the URL of your launchpad blueprint:
-
 https://blueprints.launchpad.net/oslo/+spec/graduate-oslo-i18n
 
 oslo.i18n includes modules related to internationalization and
@@ -119,6 +117,16 @@ instantiates the functions, and then have the app or library use that
 module instead of using oslo.i18n directly. This is documented in the
 usage.rst page for the library:
 http://docs.openstack.org/developer/oslo.i18n/usage.html
+
+In addition to the marker functions, some apps are using the
+:class:`Message` class from :mod:`gettextutils`. That class is meant
+to be a private implementation detail of lazy translation, and is not
+exposed in the public API of ``oslo.i18n``. To convert a Message to a
+translated string, use :func:`translate`. To instantiate a new
+Message, use :func:`enable_lazy` to turn lazy translation on and then
+use a property of a :class:`TranslatorFactory` (e.g.,
+``TranslatorFactory().primary``) to get a translation function, which
+will return a Message object.
 
 Dependencies
 ============
