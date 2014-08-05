@@ -55,7 +55,7 @@ Proposed details
 * Change from tagging versions like 1.2.3a4 (which some projects are using) to
   tagging them as 1.2.3.0a4 instead, and update the semver docs to specify the
   leading 0 accordingly. This gets us both PEP440 compatibility (which permits
-  either 1.2.3a4 or 1.2.3.0a4 but not 1.2.3.a4) and conceptual compatability
+  either 1.2.3a4 or 1.2.3.0a4 but not 1.2.3.a4) and conceptual compatibility
   with semver where the MAJOR.MINOR.PATCH format is strongly expected to be just
   numbers, which the 3a4 construct breaks. We need to continue accepting the
   current format tags since they already exist on our branches - but we can
@@ -81,7 +81,7 @@ Proposed details
 * Provide a new command (``tag-release``) to do the git tagging for developers.
   It will accept parameters allowing manual control, but will enforce semver is
   being followed (e.g. if there is a newer tag than the version being tagged in
-  the history of the branch, thats an error). Alpha, beta and rc tagging can be
+  the history of the branch, that's an error). Alpha, beta and rc tagging can be
   automated too.
 
 * Provide a python API for getting version_info style version data. e.g.::
@@ -160,7 +160,7 @@ it is out of scope for now.
     considered to be the 'last tag' for these rules.
 
 2. If the last tag is a pre-release tag, then the --no-rc option is consulted.
-   If set, pre-release tags are not considered when looking for for the last
+   If set, pre-release tags are not considered when looking for the last
    tag.
 
 3. The highest eligible tag reachable from the commit is considered to be the
@@ -240,7 +240,7 @@ Alternatives
 We could do nothing, but right now folk are reinventing stuff in adhoc fashions
 and there is no ability to reuse their solutions in a systematic fashion.
 
-We could put deprecated etc markers in setup.cfg (see previous iterations of
+We could put deprecated etc. markers in setup.cfg (see previous iterations of
 this spec in gerrit). This was felt to be too tedious to maintain.
 
 Impact on Existing APIs
