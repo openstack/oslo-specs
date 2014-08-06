@@ -7,22 +7,26 @@
  Oslo Design Specifications
 ============================
 
+Juno
+====
+
 .. toctree::
    :glob:
-   :maxdepth: 2
+   :maxdepth: 1
 
-   specs/*
+   specs/juno/*
 
 
 oslo-specs Repository Information
 =================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    README <readme>
    contributing
-   Sample Template <specs/template>
+   Sample Feature Template <specs/template>
+   Sample Graduation Template <specs/graduation-template>
 
 
 Indices and tables
