@@ -166,6 +166,21 @@ such as:
   modifications to the consuming applications?  API changes described
   above can be referenced here without repeating the details.
 
+Testing Impact
+--------------
+
+Please discuss how the change will be tested. It is assumed that unit
+test coverage will be added so that doesn't need to be mentioned
+explicitly, but if you think unit tests are sufficient and we don't
+need to add more integration tests, please explain here. If we do need
+integration tests, especially if the change introduces a dependency on
+a service or new library for which we might need to support multiple
+versions, describe the testing strategy.
+
+Is this untestable in gate given current limitations (specific hardware /
+software configurations available)? If so, are there mitigation plans (3rd
+party testing, gate enhancements, etc).
+
 Implementation
 ==============
 
