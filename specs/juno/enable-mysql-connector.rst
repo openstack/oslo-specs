@@ -1,8 +1,8 @@
-================================================
-Switch from MySQLdb to MySQL Connector (phase 1)
-================================================
+=========================================
+ Enable MySQL Connector driver (phase 1)
+=========================================
 
-https://blueprints.launchpad.net/oslo/+spec/switch-to-mysql-connector
+https://blueprints.launchpad.net/oslo/+spec/enable-mysql-connector
 
 Switch from MySQLdb to MySQL Connector [#pypi]_ which provides multiple
 benefits, including resilience of code and potential performance advantages.
