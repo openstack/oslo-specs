@@ -83,9 +83,6 @@ Work Items
   * Expose :func:`set_defaults` in log.py but move it to the options
     file and change the API to take a config object as an argument.
   * Keep :func:`getLogger` in log.py
-  * Expose :func:`mask_password` through log.py but move the
-    implementation to a private module to hide the global variables it
-    uses.
   * Move :class:`WritableLogger` to a separate public module.
   * Make the :mod:`local` module private (:mod:`_local`). We may move
     the module to another library in the future, but for now only the
