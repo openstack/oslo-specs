@@ -25,8 +25,6 @@ oslo-specs Repository Information
 
    README <readme>
    contributing
-   Sample Feature Template <specs/template>
-   Sample Graduation Template <specs/graduation-template>
 
 
 Indices and tables

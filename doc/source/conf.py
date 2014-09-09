@@ -34,6 +34,11 @@ try:
 except ImportError:
     pass
 
+exclude_patterns = [
+    '**/graduation-template.rst',
+    '**/template.rst',
+]
+
 # autodoc generation is a bit aggressive and a nuisance when doing heavy
 # text edit cycles.
 # execute "export SPHINX_DEBUG=1" in your terminal to disable
