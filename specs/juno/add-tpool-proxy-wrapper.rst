@@ -2,7 +2,7 @@
 Add tpool proxy wrapper for DB-API calls
 ========================================
 
-https://blueprints.launchpad.net/oslo/+spec/add-tpool-proxy-wrapper
+https://blueprints.launchpad.net/oslo-incubator/+spec/add-tpool-proxy-wrapper
 
 During Icehouse release cycle in order to drop dependency on eventlet we
 removed eventlet ``tpool.Proxy`` helper and the corresponding config option

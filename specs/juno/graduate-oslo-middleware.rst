@@ -2,7 +2,7 @@
  Graduating Oslo Middleware
 ===========================
 
-https://blueprints.launchpad.net/oslo/+spec/graduate-oslo-middleware
+https://blueprints.launchpad.net/oslo.middleware/+spec/graduate-oslo-middleware
 
 The new oslo.middleware library will provide a common library for wsgi
 middleware currently contained in oslo-incubator.

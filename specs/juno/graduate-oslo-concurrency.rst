@@ -2,7 +2,7 @@
  Graduating oslo.concurrency
 =============================
 
-https://blueprints.launchpad.net/oslo/+spec/graduate-oslo-concurrency
+https://blueprints.launchpad.net/oslo.concurrency/+spec/graduate-oslo-concurrency
 
 A library for managing threads and processes.
 

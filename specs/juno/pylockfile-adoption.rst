@@ -2,7 +2,7 @@
  Adoption of pylockfile
 =============================
 
-https://blueprints.launchpad.net/oslo/+spec/pylockfile-adoption
+https://blueprints.launchpad.net/pylockfile/+spec/pylockfile-adoption
 
 
 Problem description

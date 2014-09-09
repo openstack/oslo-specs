@@ -2,7 +2,7 @@
  Graduating oslo.serialization
 ===============================
 
-https://blueprints.launchpad.net/oslo/+spec/graduate-oslo-serialization
+https://blueprints.launchpad.net/oslo.serialization/+spec/graduate-oslo-serialization
 
 OpenStack-specific serialization tools
 

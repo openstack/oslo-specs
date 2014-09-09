@@ -2,7 +2,7 @@
  Rootwrap daemon mode
 ======================
 
-https://blueprints.launchpad.net/oslo/+spec/rootwrap-daemon-mode
+https://blueprints.launchpad.net/oslo.rootwrap/+spec/rootwrap-daemon-mode
 
 As it was pointed out several times on ML [#neu_ml]_ [#nova_ml]_ different
 services (most notably Neutron and Nova) suffer from performance penalty of
