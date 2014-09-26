@@ -2,7 +2,7 @@
  Graduating oslo.log
 =====================
 
-https://blueprints.launchpad.net/oslo/+spec/graduate-oslo-log
+https://blueprints.launchpad.net/oslo.log/+spec/graduate-oslo-log
 
 The oslo.log library contains common code for configuring logging in
 OpenStack services.

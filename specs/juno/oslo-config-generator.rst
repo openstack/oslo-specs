@@ -2,7 +2,7 @@
 oslo-config-generator
 =====================
 
-https://blueprints.launchpad.net/oslo/+spec/oslo-config-generator
+https://blueprints.launchpad.net/oslo.config/+spec/oslo-config-generator
 
 Add a command line utility for generating sample config files to
 oslo.config which will replace the generator utility in

@@ -2,7 +2,7 @@
 Add ChainingRegExpFilter into rootwrap
 ======================================
 
-https://blueprints.launchpad.net/oslo/+spec/chaining-regexp-filter
+https://blueprints.launchpad.net/oslo-incubator/+spec/chaining-regexp-filter
 
 Add new filter which accepts utilities prefixed to other commands, such as
 'nice' and 'ionice'. This will increase maintenability of config files.

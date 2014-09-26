@@ -2,7 +2,7 @@
  Graduating oslo.utils
 =======================
 
-https://blueprints.launchpad.net/oslo/+spec/graduate-oslo-utils
+https://blueprints.launchpad.net/oslo.utils/+spec/graduate-oslo-utils
 
 Every project has one. ``oslo.utils`` is our "grab-bag" library, made
 up of little modules with few dependencies that are too small to

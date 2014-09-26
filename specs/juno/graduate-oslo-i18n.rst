@@ -2,7 +2,7 @@
  Graduating oslo.i18n
 ======================
 
-https://blueprints.launchpad.net/oslo/+spec/graduate-oslo-i18n
+https://blueprints.launchpad.net/oslo.i18n/+spec/graduate-oslo-i18n
 
 oslo.i18n includes modules related to internationalization and
 localization. The initial version focuses on translation utilities

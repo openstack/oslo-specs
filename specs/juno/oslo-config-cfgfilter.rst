@@ -2,7 +2,7 @@
 Add a ConfigFilter wrapper class to enforce option scoping
 ==========================================================
 
-https://blueprints.launchpad.net/oslo/+spec/oslo-config-cfgfilter
+https://blueprints.launchpad.net/oslo.config/+spec/oslo-config-cfgfilter
 
 Add a new class designed to wrap cfg.ConfigFilter, with the following use cases
 in mind:

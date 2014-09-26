@@ -2,7 +2,7 @@
 Support Policy configuration directories
 ========================================
 
-https://blueprints.launchpad.net/oslo/+spec/policy-configuration-directories
+https://blueprints.launchpad.net/oslo-incubator/+spec/policy-configuration-directories
 
 This propose to add a way to override the default policy rules.
 

@@ -2,7 +2,7 @@
 Use a Filter API with SQLAlchemy Engine Events for Error Wrapping
 =================================================================
 
-https://blueprints.launchpad.net/oslo/+spec/use-events-for-error-wrapping
+https://blueprints.launchpad.net/oslo.db/+spec/use-events-for-error-wrapping
 
 The system that oslo.db provides for transformation of SQLAlchemy execution-
 time errors, including DBAPI and related errors, should be improved
