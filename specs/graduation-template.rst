@@ -7,7 +7,7 @@
 
   The filename in the git repository should match the launchpad URL,
   for example a URL of
-  https://blueprints.launchpad.net/oslo/+spec/awesome-thing should be
+  https://blueprints.launchpad.net/oslo?searchtext=awesome-thing should be
   named awesome-thing.rst.
 
   Wrap text at 79 columns.
@@ -28,7 +28,7 @@
 
 Include the URL of your launchpad blueprint:
 
-https://blueprints.launchpad.net/oslo/+spec/graduate-example
+https://blueprints.launchpad.net/oslo?searchtext=graduate-example
 
 Provide a brief description of the focus of the new library.
 
