@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Kilo
+====
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/kilo/*
+
 Juno
 ====
 
