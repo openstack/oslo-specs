@@ -25,7 +25,6 @@ Juno
 
    specs/juno/*
 
-
 oslo-specs Repository Information
 =================================
 
