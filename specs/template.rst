@@ -64,6 +64,12 @@ What other ways could we do this thing? Why aren't we using those? This doesn't
 have to be a full literature review, but it should demonstrate that thought has
 been put into why the proposed solution is an appropriate one.
 
+If this is a new module or library, what other similar libraries were
+considered why were they rejected as unsuitable?
+
+If this is a new feature, why does it belong in an Oslo module or
+library instead of an existing third-party library?
+
 Impact on Existing APIs
 -----------------------
 
