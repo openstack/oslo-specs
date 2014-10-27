@@ -10,6 +10,11 @@
   https://blueprints.launchpad.net/oslo?searchtext=awesome-thing should be
   named awesome-thing.rst.
 
+  For specs targeted at a single project, please prefix the first line
+  of your commit message with the name of the project.  For example,
+  if you're submitting a new feature for oslo.config, your git commit
+  message should start something like: "config: My new feature".
+
   Wrap text at 79 columns.
 
   Do not delete any of the sections in this template.  If you have
