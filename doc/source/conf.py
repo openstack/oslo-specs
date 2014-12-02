@@ -17,6 +17,7 @@ import os
 import sys
 
 sys.path.insert(0, os.path.abspath('../..'))
+sys.path.insert(0, os.path.abspath('_exts'))
 # -- General configuration ----------------------------------------------------
 
 # Add any Sphinx extension module names here, as strings. They can be
@@ -26,7 +27,10 @@ extensions = [
     #'sphinx.ext.intersphinx',
     'oslosphinx',
     'yasfb',
+    'check_blueprints',
 ]
+
+check_blueprints_release = 'kilo'
 
 # Feed configuration for yasfb
 feed_base_url = 'http://specs.openstack.org/openstack/oslo-specs'
