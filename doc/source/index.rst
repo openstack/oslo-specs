@@ -25,6 +25,18 @@ Juno
 
    specs/juno/*
 
+Team Policies
+=============
+
+*Team decisions and policies that are not limited to a specific
+release.*
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/policy/*
+
 oslo-specs Repository Information
 =================================
 
