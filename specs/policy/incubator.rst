@@ -80,9 +80,12 @@ or even all the modules that a project uses (unless there are specific
 obstacles to doing so). This keeps the project up to date with the
 version of the modules tested together in the incubator.
 
-Developers making major changes to incubating APIs in
-``oslo-incubator`` must be prepared to update the copies in the
-projects which have previously imported the code.
+.. note::
+
+   Developers making major changes to incubating APIs in
+   ``oslo-incubator`` must be prepared to work with :doc:`the Oslo
+   liaisons <liaisons>` to update the copies in the projects which
+   have previously imported the code.
 
 The tests for incubated code should not be synced into consuming
 projects.
