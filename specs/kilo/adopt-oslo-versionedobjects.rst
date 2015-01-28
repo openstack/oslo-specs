@@ -18,12 +18,15 @@ oslo.versionedobjects
 Contents
 ========
 
+* nova/exception.py (with cleanup to remove extraneous parts; tests not needed)
 * nova/objects/__init__.py
 * nova/objects/base.py
 * nova/objects/fields.py
 * nova/tests/unit/objects/__init__.py
 * nova/tests/unit/objects/test_fields.py
 * nova/tests/unit/objects/test_objects.py
+* nova/tests/unit/test_utils.py (with cleanup to remove extraneous parts)
+* nova/utils.py (with cleanup to remove extraneous parts)
 
 Early Adopters
 ==============
