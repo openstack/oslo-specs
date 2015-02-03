@@ -289,11 +289,35 @@ References
   marking it obsolete:
   http://lists.openstack.org/pipermail/openstack-dev/2014-August/044360.html
 
+* `Taking the Long View
+  <http://www.slideshare.net/doughellmann/taking-the-long-view-how-the-oslo-program-reduces-technical-debt>`_,
+  Kilo summit presentation by Doug Hellmann and Mark McLoughlin with
+  some history of the incubator.
+
 .. _Oslo/CreatingANewLibrary: https://wiki.openstack.org/wiki/Oslo/CreatingANewLibrary
 
 .. _oslo-incubator project: https://launchpad.net/oslo-incubator
 
 .. _Oslo/GraduationStatus: https://wiki.openstack.org/wiki/Oslo/GraduationStatus
+
+Revision History
+================
+
+.. list-table:: Revisions
+   :header-rows: 1
+
+   * - Release Name
+     - Description
+   * - Essex
+     - Incubator created as ``openstack-common`` repository
+   * - Folsom
+     - "Managed copy and paste" concepts developed
+   * - Juno
+     - Decide to delete graduating modules from the incubator after
+       one full cycle.
+   * - Kilo
+     - Change policy to delete graduating modules immediately after
+       the library is released.
 
 .. note::
 

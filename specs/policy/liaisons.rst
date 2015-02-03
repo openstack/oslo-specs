@@ -88,6 +88,17 @@ References
   list of volunteers moved to
   https://wiki.openstack.org/wiki/CrossProjectLiaisons
 
+Revision History
+================
+
+.. list-table:: Revisions
+   :header-rows: 1
+
+   * - Release Name
+     - Description
+   * - Juno
+     - Introduced
+
 .. note::
 
   This work is licensed under a Creative Commons Attribution 3.0

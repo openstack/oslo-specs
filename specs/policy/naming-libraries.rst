@@ -121,6 +121,17 @@ References
 
 .. _Project Creator's Guide: http://docs.openstack.org/infra/manual/creators.html#choosing-a-good-name-for-your-project
 
+Revision History
+================
+
+.. list-table:: Revisions
+   :header-rows: 1
+
+   * - Release Name
+     - Description
+   * - Icehouse
+     - Introduced
+
 
 .. note::
 

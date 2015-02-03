@@ -125,6 +125,19 @@ References
 .. _documentation for the public APIs of all Oslo libraries: http://docs.openstack.org/developer/openstack-projects
 
 
+Revision History
+================
+
+.. list-table:: Revisions
+   :header-rows: 1
+
+   * - Release Name
+     - Description
+   * - Icehouse
+     - Introduced
+   * - Kilo
+     - Formalized during the move out of the ``oslo`` namespace package.
+
 
 .. note::
 

@@ -248,6 +248,17 @@ References
 * http://lists.openstack.org/pipermail/openstack-dev/2014-June/037159.html
 * `pbr's modified SemVer`_
 
+Revision History
+================
+
+.. list-table:: Revisions
+   :header-rows: 1
+
+   * - Release Name
+     - Description
+   * - Juno
+     - Introduced
+
 
 .. note::
 

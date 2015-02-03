@@ -72,6 +72,17 @@ References
 
 N/A
 
+Revision History
+================
+
+.. list-table:: Revisions
+   :header-rows: 1
+
+   * - Release Name
+     - Description
+   * - Juno
+     - Introduced
+
 
 .. note::
 
