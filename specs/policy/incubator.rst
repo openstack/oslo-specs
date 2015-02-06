@@ -216,6 +216,12 @@ more input into whether the API is sufficiently generalized. The
 number of applications using the incubated module should be minimized
 until the library graduates.
 
+Because the graduated module is removed from the master branch of the
+incubator when the library is created, consuming applications should
+move to adopt the library as quickly as possible. We expect adoption
+to be complete by the end of the first full cycle after the new
+library is created.
+
 Library
 -------
 
