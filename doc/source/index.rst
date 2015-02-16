@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Liberty
+=======
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/liberty/*
+
 Kilo
 ====
 

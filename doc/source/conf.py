@@ -29,7 +29,7 @@ extensions = [
     'oslosphinx.check_blueprints',
 ]
 
-check_blueprints_release = 'kilo'
+check_blueprints_release = 'liberty'
 check_blueprints_project_group = 'oslo'
 
 # Feed configuration for yasfb
