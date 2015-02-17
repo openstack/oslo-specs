@@ -22,10 +22,13 @@ Contents
 * nova/objects/__init__.py
 * nova/objects/base.py
 * nova/objects/fields.py
+* nova/test.py
+* nova/tests/fixtures.py
 * nova/tests/unit/objects/__init__.py
 * nova/tests/unit/objects/test_fields.py
 * nova/tests/unit/objects/test_objects.py
 * nova/tests/unit/test_utils.py (with cleanup to remove extraneous parts)
+* nova/safe_utils.py (with cleanup to remove extraneous parts)
 * nova/utils.py (with cleanup to remove extraneous parts)
 
 Early Adopters
@@ -74,6 +77,12 @@ nova-centric:
   created for others to subclass. In nova, we set this rather forcibly,
   but in this library, we should provide methods to set/clear the indirection
   service.
+
+.. note::
+
+   The service and conductor code will be left out of the initial
+   import, and the tests using it commented out. Fixing those tests
+   will be a high priority item before we release.
 
 Finally, there is one detail of the implementation that deserves some thought
 before we codify it in a library. Right now, the simple act of subclassing
@@ -162,6 +171,7 @@ Work Items
 * openstack-dev/devstack - lib/oslo
 * openstack-dev/devstack - stackrc
 * Update project list on docs.openstack.org
+* Fix/update tests that depend on nova's service code
 
 Adoption Notes
 ==============
@@ -180,6 +190,11 @@ References
 
 * Earlier patch to incubator to import this code: https://review.openstack.org/#/c/60376/
 
+Export Script
+=============
+
+.. literalinclude:: adopt-oslo-versionedobjects/export.sh
+   :language: bash
 
 .. note::
 
