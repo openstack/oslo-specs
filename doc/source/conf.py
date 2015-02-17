@@ -47,6 +47,7 @@ except ImportError:
 exclude_patterns = [
     '**/graduation-template.rst',
     '**/template.rst',
+    '**/policy-template.rst',
 ]
 
 # autodoc generation is a bit aggressive and a nuisance when doing heavy
