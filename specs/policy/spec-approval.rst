@@ -70,7 +70,8 @@ None
 References
 ==========
 
-N/A
+* `email describing the specs experiment <http://lists.openstack.org/pipermail/openstack-dev/2014-May/035349.html>`__
+* `email describing the approval process <http://lists.openstack.org/pipermail/openstack-dev/2014-June/037068.html>`__
 
 Revision History
 ================
