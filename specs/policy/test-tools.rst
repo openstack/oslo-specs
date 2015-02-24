@@ -55,7 +55,7 @@ Work Items
 ----------
 
 * Deprecate the test base class in oslotest and replicate its features
-  in fixtures (see follow-up spec review).
+  in fixtures (see :doc:`/specs/liberty/oslotest-refactor-test-base-class`).
 * Deprecate the test base class(es) in oslo.db and replicate their
   features in fixtures (see
   https://blueprints.launchpad.net/oslo.db/+spec/make-db-fixture-public).
@@ -66,6 +66,7 @@ References
 * IRC discussion of issues with oslo.db and nova, starting around
   ``2015-02-24T11:36:58`` in
   http://eavesdrop.openstack.org/irclogs/%23openstack-oslo/%23openstack-oslo.2015-02-24.log
+* :doc:`/specs/liberty/oslotest-refactor-test-base-class`
 * https://blueprints.launchpad.net/oslo.db/+spec/make-db-fixture-public
 
 Revision History
