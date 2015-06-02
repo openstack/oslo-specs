@@ -73,8 +73,8 @@ substitution for REP.
 
 As we are talking about a new driver implementation it's worth mention that
 matchmaking for fanout topics, message formats, proxy daemon will stay,
-but refactored. We are going to address such proposals like [1], [2], [3], [4].
-[5] Should also be applied here, but as an optimisation, after implementation
+but refactored. We are going to address such proposals like [1]_, [2]_, [3]_, [4]_.
+[5]_ Should also be applied here, but as an optimisation, after implementation
 is done.
 
 Configuration options and messaging API should not change, so we could have
@@ -138,7 +138,7 @@ Work Items
 ----------
 
 - Implement CALL pipeline and surrounding modules
-    - package hierarchy according to [1]
+    - package hierarchy according to [1]_
     - move message serialization, topics manipulations etc.
       from existing implementation to appropriate modules
     - rpc_client part
@@ -182,15 +182,15 @@ None.
 References
 ==========
 
-1. https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-driver-folder
+.. [1] https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-driver-folder
 
-2. https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-context-per-driver-instance
+.. [2] https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-context-per-driver-instance
 
-3. https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-work-without-eventlet
+.. [3] https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-work-without-eventlet
 
-4. https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-topic-object
+.. [4] https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-topic-object
 
-5. https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-socket-reuse
+.. [5] https://blueprints.launchpad.net/oslo.messaging/+spec/zmq-socket-reuse
 
 .. note::
 
