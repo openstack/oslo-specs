@@ -50,6 +50,9 @@ Impact on Existing APIs
 The new contextual_form and plural_form properties on TranslatorFactory
 will be provided, and exported from the library.
 
+This spec only covers User Interface strings now, message logs are not
+affected.
+
 
 Security impact
 ---------------
