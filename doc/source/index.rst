@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Mitaka
+======
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/mitaka/*
+
 Liberty
 =======
 
