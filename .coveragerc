@@ -4,4 +4,4 @@ source = oslo-specs
 omit = oslo-specs/tests/*,oslo-specs/openstack/*
 
 [report]
-ignore-errors = True
+ignore_errors = True
