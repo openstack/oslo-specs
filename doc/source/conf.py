@@ -15,6 +15,17 @@
 import datetime
 import os
 import sys
+import warnings
+
+# Try to only emit warnings about SSL issues one time.
+try:
+    from requests.packages.urllib3 import exceptions
+    warnings.filterwarnings('ignore', '.*',
+                            exceptions.InsecurePlatformWarning)
+    warnings.filterwarnings('ignore', '.*',
+                            exceptions.SNIMissingWarning)
+except ImportError:
+    pass
 
 sys.path.insert(0, os.path.abspath('../..'))
 # -- General configuration ----------------------------------------------------
