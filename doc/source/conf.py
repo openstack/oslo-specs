@@ -37,11 +37,7 @@ extensions = [
     #'sphinx.ext.intersphinx',
     'oslosphinx',
     'yasfb',
-    'oslosphinx.check_blueprints',
 ]
-
-check_blueprints_release = 'liberty'
-check_blueprints_project_group = 'oslo'
 
 # Feed configuration for yasfb
 feed_base_url = 'http://specs.openstack.org/openstack/oslo-specs'
