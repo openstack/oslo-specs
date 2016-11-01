@@ -21,7 +21,7 @@ Proposed change
 
 I propose creating a new mode of operation for rootwrap - daemon mode. In this
 mode rootwrap would start, read config file and wait for commands to be run
-with root priviledges. Each service's process will have its own rootwrap daemon
+with root privileges. Each service's process will have its own rootwrap daemon
 process.
 
 Daemon starting
@@ -198,7 +198,7 @@ etherpad [#neu_eth]_:
   necessary work for one request, for example. But these scripts will either
   become very complex (say rewriting parts of Neutron agents in shell) or there
   will be too many of them. Either way defeats the purpose of sudo and rootwrap
-  - to minimize amount and complexity of code running with root priviledges.
+  - to minimize amount and complexity of code running with root privileges.
 
 * Per-host daemon process
 

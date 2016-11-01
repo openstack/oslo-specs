@@ -120,7 +120,7 @@ this:
 Developer Impact
 ----------------
 
-API Developers wokring on policy will be able to think in terms of
+API Developers working on policy will be able to think in terms of
 common policy fragments.
 
 

@@ -36,9 +36,9 @@ The idea is to create a wsgi middleware that all openstack components can use:
 The middleware will return "200 OK" if everything is OK,
 or "503 <REASON>" if not with the reason of why this API should not be used.
 
-"backends" will the name of a stevedore extentions in the namespace "oslo.middleware.healthcheck".
+"backends" will the name of a stevedore extensions in the namespace "oslo.middleware.healthcheck".
 
-oslo.middleware will also provide a base class for these extentions:
+oslo.middleware will also provide a base class for these extensions:
 
 .. code-block:: python
 
@@ -71,7 +71,7 @@ And so the setup.cfg will have entry_point like that:
       disable_by_file = oslo.middleware.healthcheck:DisableByFileHealthcheck
 
 
-The 'DisableByFileHealthcheck' extention will return if the 'disable_by_file_path'
+The 'DisableByFileHealthcheck' extension will return if the 'disable_by_file_path'
 file is missing:
 
 .. code-block:: python
@@ -131,7 +131,7 @@ Configuration Impact
 The middleware will be configurable:
 
 * path: url path of this middleware (default: /healthcheck)
-* backends: list of stevedore extention to use
+* backends: list of stevedore extension to use
 
 And the DisablebyfileHealthcheck with:
 

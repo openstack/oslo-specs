@@ -4,7 +4,7 @@
 
 https://blueprints.launchpad.net/oslo-incubator/+spec/graduate-oslo-reports
 
-The `reports` module currently provides a convienient way to assemble
+The `reports` module currently provides a convenient way to assemble
 "Guru Meditation Reports" about the current state a of a given OpenStack
 process.  The basic report includes thread (both normal and green) state
 and stack traces, as well as configuration and version information.  The
