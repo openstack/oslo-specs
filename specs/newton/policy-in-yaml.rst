@@ -88,7 +88,7 @@ I don't know if the YAML parser is a lot slower, but since it supports several
 representations for the same result I assume it takes more work to parse it.
 The policy file is read when the server starts and also whenever the file
 changes (it used to be read on every request, but that's been changed to check
-the modification time), so I don't think this is going to be noticable.
+the modification time), so I don't think this is going to be noticeable.
 
 Configuration Impact
 --------------------

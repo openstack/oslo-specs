@@ -112,7 +112,7 @@ Incubation
 Adoption
 --------
 
-Any service using the ``Dynamic Policies`` mechanism for access controll will
+Any service using the ``Dynamic Policies`` mechanism for access control will
 be using the proposed change through ``Keystone Middleware``, which means that
 adoption is transparent to services.
 

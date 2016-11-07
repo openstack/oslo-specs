@@ -36,16 +36,16 @@ In this specification I propose to create fully new driver which:
 Features and it's design
 ------------------------
 
-During oslo.messaging driver investigation I seperated a few main
+During oslo.messaging driver investigation I separated a few main
 supported features:
 
 #. RPC - unreliable fast sending of the message to single remote server
    defined using target and getting reply.
    It has small timeout (a couple of seconds) therefore this
-   message should be recieved by server and processed in real time
+   message should be received by server and processed in real time
    (defined by timeout) or be skipped otherwise.
 #. CAST - unrelieble sending of the message to set of remote servers
-   defined by target. This message should be recieved by server in real time
+   defined by target. This message should be received by server in real time
    (defined by timeout) or be skipped otherwise. If somehow service
    does not listen the topic or some connectivity problem occurs
    and we can not recover it fast - this server will never get the message.
