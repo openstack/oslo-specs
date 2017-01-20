@@ -18,7 +18,7 @@ Problem description
   individually.
 * We do want devstack to be able to change the default format without
   having to specify the whole string, for this leaves devstack with no
-  info on anything added into the default formatting sting.
+  info on anything added into the default formatting string.
 
 Proposed change
 ===============
