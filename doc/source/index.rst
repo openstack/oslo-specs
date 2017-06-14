@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Stein
+=====
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/stein/*
+
 Rocky
 =====
 
