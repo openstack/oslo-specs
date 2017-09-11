@@ -57,13 +57,13 @@ An example may look like the following:
 
    time.sleep(2) # wait for all participants discover each other
 
-   assertEquals(server.clientsList,
+   assertEqual(server.clientsList,
                 bobMessenger.clientsList,
                 aliceMessenger.clientsList)
 
    bobMessenger.sendMessage('Alice', 'Hi, there!')
 
-   assertEquals(bobMessenger.history['Alice'],
+   assertEqual(bobMessenger.history['Alice'],
                 aliceMessenger.history['Bob'])
 
 
@@ -77,7 +77,7 @@ Or for the request-reply pattern:
     fibServer.run()
 
     value = fibClient.getFibonacci(20)
-    assertEquals(value, 6765)
+    assertEqual(value, 6765)
 
 
 Alternatives
