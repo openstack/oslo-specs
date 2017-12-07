@@ -53,6 +53,7 @@ except ImportError:
 
 exclude_patterns = [
     '**/graduation-template.rst',
+    '**/new-library-template.rst',
     '**/template.rst',
     '**/policy-template.rst',
 ]
