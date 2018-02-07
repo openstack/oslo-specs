@@ -72,7 +72,7 @@ Bob at that point has a few options when building out this library:
    * automaton
    * futurist
 
-#. Create library immediately having the the Oslo group or subgroup (and by
+#. Create library immediately having the Oslo group or subgroup (and by
    default use the OpenStack ecosystem) help in its creation and produce a
    functional and useful artifact from that library (typically a pypi
    release) and integrate it into the various openstack projects.

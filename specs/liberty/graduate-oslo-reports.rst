@@ -17,7 +17,7 @@ serialized as text (default), as well as XML and JSON.
 Library Name
 ============
 
-The library will be called "oslo.reports".  The current name in the the
+The library will be called "oslo.reports".  The current name in the
 incubator is "openstack.common.report", but pluralizing the name seems more
 natural.
 
