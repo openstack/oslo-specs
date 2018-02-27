@@ -151,7 +151,7 @@ through entry points managed by stevedore_ using the namespace
 driver to the castellan library without introducing a circular
 dependency between castellan and oslo.config.
 
-.. _stevedore: https://docs.openstack.org/developer/stevedore/
+.. _stevedore: https://docs.openstack.org/stevedore/latest/
 
 Caching and Mutable Option Handling
 -----------------------------------
