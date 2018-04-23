@@ -44,7 +44,7 @@ oslo.middleware will also provide a base class for these extensions:
 
   HealthcheckResult = namedtuple('HealthcheckResult', ['available', 'reason'], verbose=True)
 
-  class HealthcheckBaseExtention(object):
+  class HealthcheckBaseExtension(object):
       def __init__(self, conf):
           self.conf = conf
 
@@ -55,7 +55,7 @@ oslo.middleware will also provide a base class for these extensions:
           return: HealthcheckResult object
           """
 
-  class MyDBHealthcheck(HealthcheckBaseExtention):
+  class MyDBHealthcheck(HealthcheckBaseExtension):
       def healthcheck():
           ...
           return HealthcheckResult(available=False,
