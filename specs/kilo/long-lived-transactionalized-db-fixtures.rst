@@ -212,7 +212,7 @@ Fixture Integration
 -------------------
 
 The provisioning system will be integrated into the test suite by taking
-advantage of the `testresources <https://pypi.python.org/pypi/testresources>`_
+advantage of the `testresources <https://pypi.org/project/testresources>`_
 library, which provides a system of
 allocating resources that may last across the span of multiple tests.
 ``testresources`` works by maintaining the state of various resources
@@ -249,7 +249,7 @@ Scenarios
 ---------
 
 Scenarios refers to the use of a tool like  `testscenarios
-<https://pypi.python.org/pypi/testscenarios/>`_, so that individual
+<https://pypi.org/project/testscenarios/>`_, so that individual
 tests can be run multiple times against different backends.  The
 existing Opportunistic fixture system will be enhanced such that the
 "DRIVER" attribute, which refers right now to a single type of

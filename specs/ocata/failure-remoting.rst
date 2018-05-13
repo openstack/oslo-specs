@@ -331,7 +331,7 @@ work).
 Proposed change
 ===============
 
-Create a new library, https://pypi.python.org/pypi/failure (or other better
+Create a new library, https://pypi.org/project/failure (or other better
 named library) that encompasses the combination of the 3-4 models described
 above.
 
@@ -405,7 +405,7 @@ would also allow for re-raising this pure python trackback and frame
 representation as an actual traceback, although this may not be a reasonable
 expectation).
 
-.. _traceback2: https://pypi.python.org/pypi/traceback2/
+.. _traceback2: https://pypi.org/project/traceback2/
 
 Alternatives
 ------------

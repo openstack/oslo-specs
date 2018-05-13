@@ -143,7 +143,7 @@ Dependencies
 
 Kafka python package
 
-* https://pypi.python.org/pypi/kafka-python
+* https://pypi.org/project/kafka-python
 
 References
 ==========

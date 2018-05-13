@@ -230,10 +230,10 @@ N/A
 
 .. _eventlet: http://eventlet.net/
 .. _here: https://github.com/harlowja/futurist
-.. _six: https://pypi.python.org/pypi/six
-.. _oslo.messaging: https://pypi.python.org/pypi/oslo.messaging
-.. _oslo.utils: https://pypi.python.org/pypi/oslo.utils
+.. _six: https://pypi.org/project/six
+.. _oslo.messaging: https://pypi.org/project/oslo.messaging
+.. _oslo.utils: https://pypi.org/project/oslo.utils
 .. _pbr: http://docs.openstack.org/developer/pbr/
 .. _taskflow: http://docs.openstack.org/developer/taskflow/
-.. _futures backport: https://pypi.python.org/pypi/futures
+.. _futures backport: https://pypi.org/project/futures
 .. _futures: https://docs.python.org/dev/library/concurrent.futures.html
