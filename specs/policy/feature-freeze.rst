@@ -18,7 +18,7 @@ Proposed Policy
 ===============
 
 Projects in the Oslo program will observe their own feature freeze, which will
-occur one week before the overall OpenStack feature freeze and continue until
+occur one week before the final non-client library release and continue until
 all of the consuming OpenStack projects have made their releases for the
 cycle.  This is a hard freeze, and as such only critical bug fixes should
 merge during the freeze period.
@@ -26,17 +26,12 @@ merge during the freeze period.
 Freezing early will provide time to release any pending changes in the Oslo
 libraries before the consuming projects enter feature freeze.
 
-Note that this policy also applies to oslo-incubator.  Feature freezing the
-incubator code means that if a bug in incubator is found by a consuming
-project, the sync of the fix to that project will not include any new
-features that may have been added to incubator in the meantime.
-
 Exceptions
 ----------
 
 This policy will not apply to libraries that have not yet been released.
-Any in-progress graduation work on those can continue through feature
-freeze as it will not affect any frozen projects.
+Any in-progress work on those can continue through feature freeze as it will
+not affect any frozen projects.
 
 Alternatives & History
 ======================
@@ -67,7 +62,7 @@ Other contributors:
 Milestones
 ----------
 
-One week before OpenStack feature freeze
+One week before final non-client library release
 
 Work Items
 ----------
@@ -88,8 +83,10 @@ Revision History
 
    * - Release Name
      - Description
-   * - 
+   * - Kilo
      - Introduced
+   * - Rocky
+     - Modified to better reflect current release landscape
 
 .. note::
 
