@@ -169,7 +169,7 @@ Notification options:
 ^^^^^^^^^^^^^^^^^^^^^
 * 'notification_persistence' (default - False) - Persist notification messages,
 * 'default_notification_exchange' (default - "openstack_notification") -
-  Exchange name for for sending notifications.
+  Exchange name for sending notifications.
 
 
 Developer Impact
