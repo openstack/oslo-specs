@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Train
+=====
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/train/*
+
 Stein
 =====
 
