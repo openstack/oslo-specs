@@ -243,8 +243,7 @@ Work Items
 * Functional test integration
 * Update devstack plugin
 * Upstream CI integration
-* Send announcement to openstack-dev and openstack-operators following
-  release
+* Send announcement to openstack-discuss following release
 
 Incubation
 ==========

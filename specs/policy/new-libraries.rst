@@ -182,7 +182,7 @@ library's future success).
 To aid in this process we as a group believe that when Bob (or other author)
 starts to figure out which of the options he (or she) will take it would
 be best for that developer to fill out the template new-library-template.rst
-and post it for review on the openstack-dev mailing list with the [oslo] tag
+and post it for review on the openstack-discuss mailing list with the [oslo] tag
 in the subject. And then let the mailing list figure out which of the above
 options will best work for the authors and the community as a whole). This
 same information should also be proposed to the oslo-specs repository itself
