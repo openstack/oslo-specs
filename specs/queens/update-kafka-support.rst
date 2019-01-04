@@ -188,7 +188,7 @@ oslo.messaging that must be implemented via driver modification should
 be implemented in the kafka driver as well. In the circumstance when a
 new feature requires behaviors/capabilities that cannot be provided by
 kafka, clients attempting to use the feature will cause a
-NotImplementedError excpetion to be raised. Additionally, the absence
+NotImplementedError exception to be raised. Additionally, the absence
 of supported functionality must be documented and included in the
 release notes.
 
