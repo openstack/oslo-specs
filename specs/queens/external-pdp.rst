@@ -64,9 +64,7 @@ User will be able to choose between:
 The switch between those PDP can be configured and done through the modification of policy.json/yaml.
 For each rule, a URL need to be set.
 Thus every components that use Oslo_Policy can benefit from this improvement. For example in Glance
-policy.json file:
-
-.. code-block:: json
+policy.json file::
 
     {
         "context_is_admin":  "role:admin",

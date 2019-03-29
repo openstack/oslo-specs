@@ -256,8 +256,8 @@ pika library
 References
 ==========
 
-.. [1] https://github.com/dukhlov/oslo.messaging/blob/master/oslo_messaging/_drivers/impl_pika.py
-.. [2] https://review.openstack.org/#/c/226348/
+#. https://github.com/dukhlov/oslo.messaging/blob/master/oslo_messaging/_drivers/impl_pika.py
+#. https://review.openstack.org/#/c/226348/
 
 .. note::
 

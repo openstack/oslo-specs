@@ -349,7 +349,7 @@ Code coverage
 .............
 
 ``coverage.py`` has support for collecting coverage statistics across
-sub-processes[#coverage_subproc].  To do this, the privileged process
+sub-processes [#coverage_subproc]_.  To do this, the privileged process
 will need to call ``coverage.process_startup()`` as early as possible
 (eg: from ``main()``), which enables coverage features if the
 ``COVERAGE_PROCESS_START`` environment variable is set.  If the
