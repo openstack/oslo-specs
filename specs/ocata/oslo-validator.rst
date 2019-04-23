@@ -218,12 +218,11 @@ This additional module will not require any dependencies.
 References
 ==========
 
-oslo.config: http://git.openstack.org/cgit/openstack/oslo.config/
-  http://docs.openstack.org/developer/oslo.config/
+oslo.config: https://docs.openstack.org/oslo.config/latest/
 
-neutron: http://github.com/openstack/neutron
+neutron: https://docs.openstack.org/neutron/latest/
 
-ironic: http://github.com/openstack/ironic
+ironic: https://docs.openstack.org/ironic/latest/
 
 .. note::
 

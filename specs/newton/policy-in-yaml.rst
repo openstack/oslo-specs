@@ -168,12 +168,11 @@ oslo.policy will depend on PyYAML. This is already in global-requirements.
 References
 ==========
 
-debtcollector: http://docs.openstack.org/developer/debtcollector/
+debtcollector: https://docs.openstack.org/debtcollector/latest/
 
 JSON: http://www.json.org/
 
-oslo.policy: http://git.openstack.org/cgit/openstack/oslo.policy/
-  http://docs.openstack.org/developer/oslo.policy/
+oslo.policy: https://docs.openstack.org/oslo.policy/latest/
 
 PyYAML: http://pyyaml.org/
 

@@ -669,9 +669,9 @@ References
 ==========
 
 .. [1] https://blueprints.launchpad.net/oslo.messaging/+spec/amqp10-driver-implementation
-.. [2] https://git.openstack.org/cgit/openstack/oslo-specs/tree/specs/juno/amqp10-driver-implementation.rst
+.. [2] https://opendev.org/openstack/oslo-specs/src/branch/master/specs/juno/amqp10-driver-implementation.rst
 .. [3] http://qpid.apache.org/components/dispatch-router/index.html
-.. [4] https://git.openstack.org/cgit/openstack/devstack-plugin-amqp1/commit/?id=142d975ac38a6a22c3a1eee6f43009d2098b270d
+.. [4] https://opendev.org/openstack/devstack-plugin-amqp1/commit/142d975ac38a6a22c3a1eee6f43009d2098b270d
 .. [5] http://docs.openstack.org/developer/oslo.messaging/AMQP1.0.html
 
 .. note::

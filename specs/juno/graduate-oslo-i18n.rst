@@ -21,7 +21,7 @@ Contents
 
 The code for this library was exported from the incubator before we
 started using specs documents. See
-http://git.openstack.org/cgit/openstack/oslo.i18n
+https://opendev.org/openstack/oslo.i18n
 
 * openstack/common/gettextutils.py
 * tests/unit/test_gettextutils.py

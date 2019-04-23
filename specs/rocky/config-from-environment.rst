@@ -211,7 +211,7 @@ References
 * Backend Drivers for oslo.config:
   `<http://specs.openstack.org/openstack/oslo-specs/specs/queens/oslo-config-drivers.html>`_
 * Keystone Middleware option type coercing:
-  `<http://git.openstack.org/cgit/openstack/keystonemiddleware/tree/keystonemiddleware/_common/config.py>`_
+  `<https://opendev.org/openstack/keystonemiddleware/src/branch/stable/rocky/keystonemiddleware/_common/config.py>`_
 
 .. note::
 
@@ -220,4 +220,4 @@ References
   http://creativecommons.org/licenses/by/3.0/legalcode
 
 .. _drivers: http://specs.openstack.org/openstack/oslo-specs/specs/queens/oslo-config-drivers.html
-.. _keystonemiddleware: http://git.openstack.org/cgit/openstack/keystonemiddleware/tree/keystonemiddleware/_common/config.py
+.. _keystonemiddleware: https://opendev.org/openstack/keystonemiddleware/src/branch/stable/rocky/keystonemiddleware/_common/config.py
