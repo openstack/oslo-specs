@@ -52,7 +52,7 @@ deployers maintain and trim their policy files.
 
 Files to change:
 
-* olso_policy/generator.py (new file)
+* oslo_policy/generator.py (new file)
 * setup.cfg (register an entry point)
 
 Alternatives

@@ -125,7 +125,7 @@ will initially hold rulenames, rules, and descriptions.
 
 Files to change:
 
-* olso_policy/policy.py
+* oslo_policy/policy.py
 
 Alternatives
 ------------

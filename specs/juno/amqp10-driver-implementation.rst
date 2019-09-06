@@ -165,7 +165,7 @@ users. It does however restrict choice.
 Another alternative would be to choose a different protocol as the
 basis of the new driver. MQTT is focused on a pub-sub pattern and
 doesn't incorporate competing consumers as is required for the current
-olso.messaging semantics. STOMP doesn't define interoperable
+oslo.messaging semantics. STOMP doesn't define interoperable
 mechanisms for request-response. Since two of the existing drivers use
 earlier versions of AMQP, AMQP supports all the patterns needed and
 AMQP is an open standard (now standardised under ISO) it seems a
