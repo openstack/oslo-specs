@@ -40,7 +40,7 @@ extensions = [
 repository_name = 'openstack/oslo-specs'
 
 # Feed configuration for yasfb
-feed_base_url = 'http://specs.openstack.org/openstack/oslo-specs'
+feed_base_url = 'https://specs.openstack.org/openstack/oslo-specs'
 feed_author = 'OpenStack Oslo Team'
 
 # Optionally allow the use of sphinxcontrib.spelling to verify the
