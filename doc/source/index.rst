@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Ussuri
+======
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/ussuri/*
+
 Train
 =====
 
