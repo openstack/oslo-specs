@@ -5,3 +5,4 @@
 sphinx>=1.8.0,!=2.1.0 # BSD
 openstackdocstheme>=1.18.1 # Apache-2.0
 reno>=2.5.0 # Apache-2.0
+yasfb>=0.8.0 # BSD
