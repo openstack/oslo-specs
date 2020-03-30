@@ -45,7 +45,8 @@ a minor version bump would be needed and if master has already been released
 then that minor version will already be taken.
 
 .. note:: In general, minor version changes are not allowed on stable branches,
-          but exceptions can be made if the situation warrants it.
+          but exceptions can be made if the situation warrants it. See
+          the `stable branch guide`_ for more details.
 
 When making releases, there are some useful commands to know. First, to find
 all the changes in all the Oslo libraries since they were last released, use
@@ -103,11 +104,12 @@ Beginning of Cycle Activities
   to give everyone a chance to update the new one.
 
 * When a new release name is announced, it needs to be added to the oslo.log
-  versionutils module.
+  versionutils module. See this `versionutils review`_ for an example.
 
 * At the start of each cycle, the Oslo `feature freeze`_ date should be added
   to the release calendar. See this `feature freeze date review`_ for an
-  example of doing that.
+  example of doing that. A detailed explanation of why Oslo has its own
+  feature freeze can be found in the `feature freeze`_ policy.
 
 * Check the `oslo-coresec`_ group and make sure all members are active Oslo
   cores so private security bugs are not being sent out to people who don't
@@ -143,10 +145,12 @@ be done manually is to make the new PTL an administrator on the
 
 
 .. _`Project Team Guide PTL Document`: https://docs.openstack.org/project-team-guide/ptl.html
+.. _`stable branch guide`: https://docs.openstack.org/project-team-guide/stable-branches.html#appropriate-fixes
 .. _`eavesdrop page`: http://eavesdrop.openstack.org/#Oslo_Team_Meeting
 .. _`meeting agenda`: https://wiki.openstack.org/wiki/Meetings/Oslo#Agenda_for_Next_Meeting
 .. _`meeting agenda template`: https://wiki.openstack.org/wiki/Meetings/Oslo#Agenda_Template
 .. _`reviewstats`: https://opendev.org/openstack/reviewstats
+.. _`versionutils review`: https://opendev.org/openstack/oslo.log/commit/adef9b6ecbecedad9836e96a092c32cc8a17eb97
 .. _`feature freeze`: http://specs.openstack.org/openstack/oslo-specs/specs/policy/feature-freeze.html
 .. _`feature freeze date review`: https://github.com/openstack/releases/commit/58585a1fa0084fb8aca8146c848d338ccc7766ba#diff-6590df7965d3a63150e201d8881d33f9
 .. _`vulnerability management team's requirements`: https://governance.openstack.org/tc/reference/tags/vulnerability_managed.html#requirements
