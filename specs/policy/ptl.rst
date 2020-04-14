@@ -27,7 +27,7 @@ particular attention to the parts about delegating.
 
 Releases
 --------
-In general, the PTL or release liaison should propose releases for all Oslo
+In general, the PTL or release liaison should `propose releases`_ for all Oslo
 libraries that need one weekly. Generally this is done early in the week, and
 releasing on Friday is avoided when possible to avoid anyone having to work
 the weekend to fix a breakage. If a critical fix needs to be released
@@ -132,6 +132,18 @@ End of Cycle Activities
   unreleased doc or test changes they may be lost on the stable branch and need
   to be backported.
 
+  When doing the final release of a library for the cycle, also request to
+  create the appropriate stable branch. For an example of doing so, see
+  `this branch creation request`_. In the future this can all be done in one
+  review, but it's a change in the previous process so there are no example
+  reviews for that yet.
+
+  When doing a final release, you can easily include the branch creation
+  with it by adding ``--stable-branch`` to the new_release.sh call. For
+  example::
+
+    ./tools/new_release.sh ussuri oslo.config feature --stable-branch
+
 * Manually request a stable branch for the devstack-plugin repos. Because these
   are not released, they are not automatically branched. For details on how to
   do this, see this `branch request`_ change.
@@ -145,6 +157,7 @@ be done manually is to make the new PTL an administrator on the
 
 
 .. _`Project Team Guide PTL Document`: https://docs.openstack.org/project-team-guide/ptl.html
+.. _`propose releases`: https://releases.openstack.org/reference/using.html#requesting-a-release
 .. _`stable branch guide`: https://docs.openstack.org/project-team-guide/stable-branches.html#appropriate-fixes
 .. _`eavesdrop page`: http://eavesdrop.openstack.org/#Oslo_Team_Meeting
 .. _`meeting agenda`: https://wiki.openstack.org/wiki/Meetings/Oslo#Agenda_for_Next_Meeting
@@ -154,6 +167,7 @@ be done manually is to make the new PTL an administrator on the
 .. _`feature freeze`: http://specs.openstack.org/openstack/oslo-specs/specs/policy/feature-freeze.html
 .. _`feature freeze date review`: https://github.com/openstack/releases/commit/58585a1fa0084fb8aca8146c848d338ccc7766ba#diff-6590df7965d3a63150e201d8881d33f9
 .. _`vulnerability management team's requirements`: https://governance.openstack.org/tc/reference/tags/vulnerability_managed.html#requirements
+.. _`this branch creation request`: https://review.opendev.org/#/c/718760/
 .. _`branch request`: https://review.openstack.org/#/c/650118/
 .. _`oslo-coresec`: https://launchpad.net/~oslo-coresec
 
