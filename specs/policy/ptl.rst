@@ -144,10 +144,6 @@ End of Cycle Activities
 
     ./tools/new_release.sh ussuri oslo.config feature --stable-branch
 
-* Manually request a stable branch for the devstack-plugin repos. Because these
-  are not released, they are not automatically branched. For details on how to
-  do this, see this `branch request`_ change.
-
 PTL Handoff Activities
 ----------------------
 
@@ -168,7 +164,6 @@ be done manually is to make the new PTL an administrator on the
 .. _`feature freeze date review`: https://github.com/openstack/releases/commit/58585a1fa0084fb8aca8146c848d338ccc7766ba#diff-6590df7965d3a63150e201d8881d33f9
 .. _`vulnerability management team's requirements`: https://governance.openstack.org/tc/reference/tags/vulnerability_managed.html#requirements
 .. _`this branch creation request`: https://review.opendev.org/#/c/718760/
-.. _`branch request`: https://review.openstack.org/#/c/650118/
 .. _`oslo-coresec`: https://launchpad.net/~oslo-coresec
 
 Alternatives & History
