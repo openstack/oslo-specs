@@ -37,7 +37,11 @@ extensions = [
     'yasfb',
 ]
 
-repository_name = 'openstack/oslo-specs'
+openstackdocs_repo_name = 'openstack/oslo-specs'
+openstackdocs_auto_version = False
+
+version = ''
+release = ''
 
 # Feed configuration for yasfb
 feed_base_url = 'https://specs.openstack.org/openstack/oslo-specs'
