@@ -228,39 +228,6 @@ add any additional steps necessary at the appropriate place in the
 sequence. If no extra work is needed, referencing the checklist
 without reproducing it is sufficient.
 
-Incubation
-==========
-
-If this work reflects the addition of a new module through the
-incubator process, we want to ensure that the full life-cycle for the
-module has been thought out.
-
-Adoption
---------
-
-Which applications would like to share the modules? We usually prefer
-at least 2 applications, but if too many applications share the
-incubated version graduation becomes more difficult.
-
-Library
--------
-
-Which library will the new module eventually graduate into? If this is
-a new library, explain why no existing library is suitable (circular
-dependencies, no existing related library, etc.) and give a brief
-description of the new library.
-
-Remember to consider the dependencies of the library. Will it depend
-on other oslo libraries that it does not already use? Will those
-dependencies introduce a cycle?
-
-Anticipated API Stabilization
------------------------------
-
-What API changes are anticipated before the code will be stable enough
-to graduate? How many release cycles are needed for that API to prove
-itself?
-
 Documentation Impact
 ====================
 
