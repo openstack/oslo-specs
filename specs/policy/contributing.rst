@@ -48,6 +48,21 @@ Reporting a Bug
 You found an issue and want to make sure we are aware of it? You can do so on
 `Launchpad <https://bugs.launchpad.net/oslo>`_.
 
+How to contribute
+~~~~~~~~~~~~~~~~~
+
+If you would like to contribute to the development of OpenStack, you must
+follow the steps in this page:
+
+https://docs.openstack.org/infra/manual/developers.html
+
+Once those steps have been completed, changes to OpenStack should be submitted
+for review via the Gerrit tool, following the workflow documented at:
+
+https://docs.openstack.org/infra/manual/developers.html#development-workflow
+
+Pull requests submitted through GitHub will be ignored.
+
 Getting Your Patch Merged
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 In general, Oslo requires 2 +2's in order to merge a patch. Under some
