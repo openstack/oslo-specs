@@ -14,7 +14,7 @@ with Oslo, which includes all of the projects listed on
 
 Communication
 ~~~~~~~~~~~~~
-IRC: #openstack-oslo on Freenode
+IRC: #openstack-oslo on OFTC
 
 Mailing list: Messages tagged with [oslo] on
 `openstack-discuss <http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss>`_
