@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Zed
+========
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/zed/*
+
 Victoria
 ========
 
