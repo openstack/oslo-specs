@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Bobcat
+========
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/bobcat/*
+
 Zed
 ========
 
