@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Epoxy
+=========
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/epoxy/*
+
 Dalmatian
 =========
 
@@ -15,15 +24,6 @@ Dalmatian
    :maxdepth: 1
 
    specs/dalmatian/*
-
-Bobcat
-========
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-
-   specs/bobcat/*
 
 Zed
 ========
