@@ -7,6 +7,15 @@
  Oslo Design Specifications
 ============================
 
+Dalmatian
+=========
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/dalmatian/*
+
 Bobcat
 ========
 
