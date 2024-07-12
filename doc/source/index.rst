@@ -8,7 +8,7 @@
 ============================
 
 Epoxy
-=========
+=====
 
 .. toctree::
    :glob:
@@ -26,7 +26,7 @@ Dalmatian
    specs/dalmatian/*
 
 Zed
-========
+===
 
 .. toctree::
    :glob:
