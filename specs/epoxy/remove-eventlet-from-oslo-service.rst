@@ -110,7 +110,7 @@ to the future version of oslo.service, a version free from Eventlet.
 these features or if we should remove some of them in the process.
 
 If we decide to remove existing feature, then we must decide how transition
-our customers.
+our consumers.
 
 In all the case, at some point will would have to release major version of
 oslo.service where the backward compatibility will be definitely broken.
@@ -122,21 +122,21 @@ Constraints
 
 For the sake of consistency we have to define a couple of constrains. The
 goal of these constraints is to keep the migration as transparent as possible
-for customers.
+for consumers.
 
 * we cannot abruptly remove Eventlet, so, for all the previously described
   oslo.service features, both implementations will have to cohabit, the
   Eventlet version, and the new one;
 
-* at the oslo.service's customer level, the transition must be as smooth as
-  possible. Meaning that customer should not have to rewrite all their imports
+* at the oslo.service's consumers level, the transition must be as smooth as
+  possible. Meaning that consumers should not have to rewrite all their imports
   to continue using the Eventlet based implementation, or the new version.
   Some oslo.service modules may be abandoned, only those imports would have
-  to be removed if imported at the customers level;
+  to be removed if imported at the consumers level;
 
-* customers must decide when to switch from an implementation to an other;
+* consumers must decide when to switch from an implementation to an other;
 
-* the removal of the Eventlet implementation should not impact the customer
+* the removal of the Eventlet implementation should not impact the consumers
   in a random way. If a feature is explicitly removed from oslo.service, then
   an alternative must be documented in a migration guide specific to
   oslo.service. Customers must be informed by deprecation warning of the
@@ -351,9 +351,9 @@ and give instruction to users, example with the wsgi sub-module::
 
     debtcollector.deprecate(
         """
-        The WSGI module is no longer supported\n
-        You see this deprecation warning because you are importing\n
-        the oslo.service wsgi module. This module is deprecated and will\n
+        The WSGI module is no longer supported
+        You see this deprecation warning because you are importing
+        the oslo.service wsgi module. This module is deprecated and will
         be soon removed. Please consider using uwsgi and consider following
         the migration path described here:
         https://docs.openstack.org/oslo.service/latest/migration/wsgi.html
@@ -375,7 +375,7 @@ re-implemented, then it could remains at the root level. That's by example
 the case of the ``systemd`` sub-module, which in our previous tree example
 remains at the root level.
 
-If a customers do not move its oslo.service backend to the ``threading``
+If a consumers do not move its oslo.service backend to the ``threading``
 backend in the allotted time, then the T.C should be warned. Then the T.C will
 surely inform the Pop Up team created to manage the whole Eventlet removal.
 In this case, the Pop Up team may decide to migrate this deliverable or could
@@ -386,7 +386,7 @@ Alternatives
 
 It would be also possible to entirely deprecate oslo.service and to point
 the available alternatives into the deprecation warnings, therefore,
-leaving the charge of the refactor to the customers.
+leaving the charge of the refactor to the consumers.
 
 The problem of this approach is that it would surely spring various approaches
 and so a diversity of solution.
@@ -394,7 +394,7 @@ and so a diversity of solution.
 The motivation behind the creation of the Oslo projects was to uniformize the
 solutions and to reduce the technical debt.
 
-If we delegate the refactor to oslo.service customers it will lead to an
+If we delegate the refactor to oslo.service consumers it will lead to an
 increase of this technical debt.
 
 Impact on Existing APIs
@@ -405,7 +405,7 @@ The temporary backends
 
 The existing API will be modified to introduce the temporary backends.
 Backends will remains private module not directly importable
-by customers. One or the other backend will be imported by the classic
+by consumers. One or the other backend will be imported by the classic
 import and by choosing one backend or the other in the config.
 
 The public API will remains almost the same until the Eventlet backend is not
